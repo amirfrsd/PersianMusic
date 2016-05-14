@@ -16,6 +16,9 @@
 		CD5DA5731CE771A80088F18D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5DA5711CE771A80088F18D /* LaunchScreen.storyboard */; };
 		CD5DA57E1CE771A80088F18D /* PersianMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5DA57D1CE771A80088F18D /* PersianMusicTests.m */; };
 		CD5DA5891CE771A80088F18D /* PersianMusicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5DA5881CE771A80088F18D /* PersianMusicUITests.m */; };
+		CD5DA5971CE77E1E0088F18D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5DA5961CE77E1E0088F18D /* MediaPlayer.framework */; };
+		CD5DA5991CE7801E0088F18D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5DA5981CE7801E0088F18D /* AVFoundation.framework */; };
+		CD5DA59E1CE78E7B0088F18D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5DA59D1CE78E7B0088F18D /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,10 @@
 		CD5DA5841CE771A80088F18D /* PersianMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersianMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD5DA5881CE771A80088F18D /* PersianMusicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersianMusicUITests.m; sourceTree = "<group>"; };
 		CD5DA58A1CE771A80088F18D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD5DA5961CE77E1E0088F18D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		CD5DA5981CE7801E0088F18D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CD5DA59C1CE78E7B0088F18D /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		CD5DA59D1CE78E7B0088F18D /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD5DA5991CE7801E0088F18D /* AVFoundation.framework in Frameworks */,
+				CD5DA5971CE77E1E0088F18D /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +93,8 @@
 		CD5DA5541CE771A70088F18D = {
 			isa = PBXGroup;
 			children = (
+				CD5DA5981CE7801E0088F18D /* AVFoundation.framework */,
+				CD5DA5961CE77E1E0088F18D /* MediaPlayer.framework */,
 				CD5DA55F1CE771A80088F18D /* PersianMusic */,
 				CD5DA57C1CE771A80088F18D /* PersianMusicTests */,
 				CD5DA5871CE771A80088F18D /* PersianMusicUITests */,
@@ -110,6 +121,8 @@
 				CD5DA5671CE771A80088F18D /* MasterViewController.m */,
 				CD5DA5691CE771A80088F18D /* DetailViewController.h */,
 				CD5DA56A1CE771A80088F18D /* DetailViewController.m */,
+				CD5DA59C1CE78E7B0088F18D /* MBProgressHUD.h */,
+				CD5DA59D1CE78E7B0088F18D /* MBProgressHUD.m */,
 				CD5DA56C1CE771A80088F18D /* Main.storyboard */,
 				CD5DA56F1CE771A80088F18D /* Assets.xcassets */,
 				CD5DA5711CE771A80088F18D /* LaunchScreen.storyboard */,
@@ -277,6 +290,7 @@
 			files = (
 				CD5DA5651CE771A80088F18D /* AppDelegate.m in Sources */,
 				CD5DA5681CE771A80088F18D /* MasterViewController.m in Sources */,
+				CD5DA59E1CE78E7B0088F18D /* MBProgressHUD.m in Sources */,
 				CD5DA5621CE771A80088F18D /* main.m in Sources */,
 				CD5DA56B1CE771A80088F18D /* DetailViewController.m in Sources */,
 			);
